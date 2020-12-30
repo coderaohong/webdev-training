@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "SuperLight";
+    src: url(../fonts/TitilliumWeb-Thin.ttf);
+}
+@font-face {
+    font-family: "Super";
+    src: url(../fonts/TitilliumWeb-Light.ttf);
+}
+@font-face{
+    font-family: "AppleTitle"; src: url(../fonts/SFProDisplaySemibold.ttf);
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    max-width: 100vw;
+}
+div {
+    /* max-width khong duoc qua giao dien */
+    max-width: 100vw;
+}
+header {
+    width: 100%;
+    height: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    color: white;
+    background-color: grey;
+    background-image: url('../img/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 
+}
+.header h1{
+    margin: 0;
+    padding: 4rem;
+    padding-left: 10vw;
+    padding-top: 20vh;
+}
+.solid-btn{
+    text-align: center;
+    align-content: center;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    outline: none;
+}
+.header__nav{
+    float: right;
+    position: relative;
+}
+.header__nav-item{
+    display: inline;
+    z-index: 1;
+    color: white;
+    font-size: 16;
+}
+.header__nav-item a{
+    font-family: SuperLight;
+}
